@@ -1,0 +1,61 @@
+{
+    "algo": "cryptonight",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "id": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "autosave": true,
+    "av": 0,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": null,
+    "donate-level": 5,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": null,
+    "max-cpu-usage": 75,
+    "pools": [
+        {
+            "url": "pool.supportxmr.com:5555",
+            "user": "41jWpwhFrUZ1KADHaMyyxwd3PLdJU19kCXhDiAKRyM9oMgo5Y5QTWDo9u8GbrPUBafgAnQ7ZB12rfTszYiZAyuUV4mMtsCf",
+            "pass": "creo",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "variant": -1,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "threads": [
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": false
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": false
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": false
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": false
+        }
+    ],
+    "user-agent": null,
+    "syslog": false,
+    "watch": true
+}
