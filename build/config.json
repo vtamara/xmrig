@@ -14,11 +14,11 @@
     "colors": true,
     "cpu-affinity": null,
     "cpu-priority": null,
-    "donate-level": 0,
+    "donate-level": 1,
     "huge-pages": true,
     "hw-aes": null,
     "log-file": null,
-    "max-cpu-usage": 75,
+    "max-cpu-usage": 50,
     "pools": [
         {
             "url": "pool.supportxmr.com:5555",
