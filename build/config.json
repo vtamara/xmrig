@@ -1,61 +1,117 @@
 {
-    "algo": "cryptonight",
     "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
         "port": 0,
         "access-token": null,
-        "id": null,
-        "worker-id": null,
-        "ipv6": false,
         "restricted": true
     },
     "autosave": true,
-    "av": 0,
     "background": false,
     "colors": true,
-    "cpu-affinity": null,
-    "cpu-priority": null,
+    "randomx": {
+        "init": -1,
+        "mode": "auto"
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": false,
+        "argon2-impl": null,
+        "argon2": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+        "cn": [
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1]
+        ],
+        "cn-heavy": [
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1]
+        ],
+        "cn-lite": [
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1],
+            [1, -1]
+        ],
+        "cn-pico": [
+            [2, -1],
+            [2, -1],
+            [2, -1],
+            [2, -1],
+            [2, -1],
+            [2, -1],
+            [2, -1],
+            [2, -1],
+            [2, -1],
+            [2, -1],
+            [2, -1],
+            [2, -1]
+        ],
+        "cn/gpu": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+        "rx": [-1, -1, -1, -1, -1, -1, -1, -1],
+        "rx/wow": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+        "cn/0": false,
+        "cn-lite/0": false,
+        "rx/arq": "rx/wow"
+    },
+    "opencl": {
+        "enabled": false,
+        "cache": true,
+        "loader": null,
+        "platform": "AMD"
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null,
+        "nvml": true
+    },
     "donate-level": 1,
-    "huge-pages": true,
-    "hw-aes": null,
+    "donate-over-proxy": 1,
     "log-file": null,
-    "max-cpu-usage": 50,
     "pools": [
         {
+            "algo": null,
+            "coin": null,
             "url": "pool.supportxmr.com:5555",
             "user": "41jWpwhFrUZ1KADHaMyyxwd3PLdJU19kCXhDiAKRyM9oMgo5Y5QTWDo9u8GbrPUBafgAnQ7ZB12rfTszYiZAyuUV4mMtsCf",
             "pass": "creo",
             "rig-id": null,
             "nicehash": false,
             "keepalive": true,
-            "variant": -1,
             "enabled": true,
             "tls": false,
-            "tls-fingerprint": null
+            "tls-fingerprint": null,
+            "daemon": false,
+            "self-select": null
         }
     ],
     "print-time": 60,
+    "health-print-time": 60,
     "retries": 5,
     "retry-pause": 5,
-    "safe": false,
-    "threads": [
-        {
-            "low_power_mode": 1,
-            "affine_to_cpu": false
-        },
-        {
-            "low_power_mode": 1,
-            "affine_to_cpu": false
-        },
-        {
-            "low_power_mode": 1,
-            "affine_to_cpu": false
-        },
-        {
-            "low_power_mode": 1,
-            "affine_to_cpu": false
-        }
-    ],
-    "user-agent": null,
     "syslog": false,
+    "user-agent": null,
     "watch": true
 }
